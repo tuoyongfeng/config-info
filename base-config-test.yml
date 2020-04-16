@@ -4,9 +4,9 @@ spring:
       max-request-size: 10MB
       max-file-size: 10MB
   profiles:
-    active: prod
+    active: test
   datasource:
-    url: jdbc\:mysql\://127.0.0.1\:3306/saiente?tuseUnicode\=true&characterEncoding\=utf-8&zeroDateTimeBehavior\=convertToNull
+    url: jdbc:mysql://127.0.0.1:3306/saiente?tuseUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
     username: root
     password: huatek
     driver-class-name: com.mysql.jdbc.Driver
@@ -44,7 +44,7 @@ image:
 log:
   db:
     driver: com.mysql.jdbc.Driver
-    url: jdbc\:mysql\://127.0.0.1\:3306/saiente?tuseUnicode\=true&characterEncoding\=utf-8&zeroDateTimeBehavior\=convertToNull
+    url: jdbc:mysql://127.0.0.1:3306/saiente?tuseUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
     username: root
     password: huatek
 
