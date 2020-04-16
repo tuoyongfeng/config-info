@@ -3,6 +3,8 @@ spring:
     multipart:
       max-request-size: 10MB
       max-file-size: 10MB
+  profiles:
+    active: prod
   datasource:
     url: jdbc\:mysql\://127.0.0.1\:3306/saiente?tuseUnicode\=true&characterEncoding\=utf-8&zeroDateTimeBehavior\=convertToNull
     username: root
