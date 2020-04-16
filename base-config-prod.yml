@@ -26,7 +26,6 @@ spring:
 mybatis:
   mapper-locations: classpath:com/antelope/framebase/mapping/**Mapper.xml
 
-
 pagehelper:
   helperDialect: mysql
   reasonable: false
