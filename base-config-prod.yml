@@ -31,12 +31,12 @@ pagehelper:
   helperDialect: mysql
   reasonable: false
   supportMethodsArguments: true
-  params: count: countSql
+  params: count=countSql
 
 file:
-  path: E:/app/files/
+  path: /app/files/
 image:
-  path: E:/app/images/
+  path: /app/images/
   url:
     prefix: https://127.0.0.1/images
 

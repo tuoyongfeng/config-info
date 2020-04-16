@@ -31,7 +31,7 @@ pagehelper:
   helperDialect: mysql
   reasonable: false
   supportMethodsArguments: true
-  params: count: countSql
+  params: count=countSql
 
 file:
   path: /app/files/
